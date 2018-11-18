@@ -1,0 +1,24 @@
+{
+  "name": "js-factorial",
+  "version": "1.0.0",
+  "description": "Html app para calcular fatorial",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "karma start --single-run --browsers PhantomJS",
+    "tdd": "karma start --browsers Chrome --reporters progress",
+    "test-navegadores": "karma start --single-run --browsers Chrome,PhantomJS"
+  },
+  "author": "Allan",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.3.0",
+    "karma": "^3.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.2",
+    "karma-jasmine": "^2.0.1",
+    "karma-phantomjs-launcher": "^1.0.4"
+  }
+}
